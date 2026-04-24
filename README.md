@@ -32,30 +32,16 @@ This is the invisible system where all your rides and user accounts are permanen
 
 ## ⚙️ Step 3: Start the Application
 
-1. Open that extracted folder on your Desktop until you can see all the project files (files named things like `server.js` and `package.json`).
-2. Click directly on the long horizontal **Address Bar** at the very top of your Windows folder window.
-3. Delete whatever folder path text is lingering there, type `cmd`, and press **Enter**. *(This will cleanly open a black command window pointing directly at your folder)*.
-4. Inside that black window, type exactly this and press Enter:
-   ```cmd
-   npm install
-   ```
-   *(Wait a minute or two while the window automatically downloads the background files the app needs).*
-5. When that finishes and stops moving, type this final command and press Enter:
-   ```cmd
-   node server.js
-   ```
-6. You should immediately see a message pop up in the black window saying `Server running on port 5000` and `MongoDB Connected`. **Do not close this black window!** Let it run secretly in the background.
+1. Open that extracted folder on your Desktop until you can see all the project files.
+2. Find the file named **`Launch_SwiftCommute.bat`** and **double-click it**.
+3. A black master window will pop open and automatically download all necessary background files, connect to your database, and turn the server on for you entirely automatically!
+4. **Do not close this black window!** Simply minimize it so it runs secretly in the background.
 
 ---
 
-## 🌐 Step 4: Open the Website!
+## 🌐 Step 4: Use the Website!
 
-1. Open your normal web browser (like Google Chrome or Microsoft Edge).
-2. In the very top website URL bar (where you usually type google.com), type:
-   ```text
-   http://localhost:5000
-   ```
-3. Press Enter. You are now officially using SwiftCommute!
+Exactly 3 seconds after you double-click that file, your default web browser (like Google Chrome or Microsoft Edge) will automatically pop open precisely to `http://localhost:5000`! You are now officially using SwiftCommute!
 
 ---
 
